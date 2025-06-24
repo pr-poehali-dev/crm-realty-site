@@ -1,24 +1,26 @@
-import Icon from "@/components/ui/icon";
-
 const AdditionalServices = () => {
   const services = [
     {
-      icon: "MapPin",
+      image:
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop",
       title: "Межрегиональные сделки",
       description: "Зарабатывайте передавая клиентов в любые регионы",
     },
     {
-      icon: "Headphones",
+      image:
+        "https://images.unsplash.com/photo-1553484771-371a605b060b?w=400&h=300&fit=crop",
       title: "Контакт-центр",
       description: "Каждое обращение будет учтено",
     },
     {
-      icon: "Home",
+      image:
+        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop",
       title: "Ипотечный брокеридж",
       description: "Комиссия до 50 тыс. руб за проданный полис",
     },
     {
-      icon: "Shield",
+      image:
+        "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=300&fit=crop",
       title: "Страхование недвижимости, здоровья и жизни",
       description: "Зарабатывайте на комиссии страховщиков",
     },
@@ -42,11 +44,11 @@ const AdditionalServices = () => {
               key={index}
               className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 hover:shadow-xl transition-all duration-300 hover:scale-105 group"
             >
-              <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                <Icon
-                  name={service.icon as any}
-                  size={24}
-                  className="text-white"
+              <div className="w-full h-32 mb-4 rounded-lg overflow-hidden group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover"
                 />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
