@@ -1,9 +1,13 @@
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
+import Navigation from "@/components/Navigation";
 
 const Hero = () => {
   return (
     <section className="relative bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white py-20 overflow-hidden">
+      {/* Navigation */}
+      <Navigation />
+
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-72 h-72 bg-purple-500 rounded-full filter blur-3xl animate-pulse"></div>
