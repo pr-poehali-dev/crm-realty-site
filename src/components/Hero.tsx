@@ -33,14 +33,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-8 py-3"
-              >
-                Заказать презентацию
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-gray-400 text-white hover:bg-white hover:text-slate-900 text-lg px-8 py-3"
+                className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-3"
               >
                 Заказать презентацию
               </Button>
