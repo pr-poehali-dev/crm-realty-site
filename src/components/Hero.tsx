@@ -20,15 +20,11 @@ const Hero = () => {
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-              CRM система
-              <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent block">
-                нового поколения
-              </span>
+              CRM для агентств недвижимости{" "}
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed">
-              Автоматизируйте продажи недвижимости с помощью 150+ модулей,
-              ИИ-аналитики и интеграций с ведущими площадками
+              Ваша цифровая платформа
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -36,15 +32,14 @@ const Hero = () => {
                 size="lg"
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-8 py-3"
               >
-                <Icon name="Play" size={20} className="mr-2" />
-                Смотреть демо
+                Заказать презентацию
               </Button>
               <Button
                 variant="outline"
                 size="lg"
                 className="border-gray-400 text-white hover:bg-white hover:text-slate-900 text-lg px-8 py-3"
               >
-                Бесплатный тест
+                Узнать подробней
               </Button>
             </div>
 
@@ -54,12 +49,14 @@ const Hero = () => {
                 <div className="text-sm text-gray-400">модулей</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-blue-400">5000+</div>
-                <div className="text-sm text-gray-400">агентств</div>
+                <div className="text-2xl font-bold text-blue-400">1000+</div>
+                <div className="text-sm text-gray-400">агентов</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-green-400">99.9%</div>
-                <div className="text-sm text-gray-400">uptime</div>
+                <div className="text-2xl font-bold text-green-400">
+                  Аналитика
+                </div>
+                <div className="text-sm text-gray-400">под ключ</div>
               </div>
             </div>
           </div>
