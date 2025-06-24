@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="inline-flex items-center space-x-2 bg-purple-500/20 rounded-full px-4 py-2 text-sm">
               <Icon name="Zap" size={16} className="text-yellow-400" />
-              <span>Лидер рынка CRM для недвижимости</span>
+              <span></span>
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
