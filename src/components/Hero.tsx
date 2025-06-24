@@ -42,7 +42,7 @@ const Hero = () => {
                 size="lg"
                 className="border-gray-400 text-white hover:bg-white hover:text-slate-900 text-lg px-8 py-3"
               >
-                Узнать подробней
+                Заказать презентацию
               </Button>
             </div>
 
