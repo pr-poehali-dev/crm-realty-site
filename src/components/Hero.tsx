@@ -61,48 +61,16 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right content - Mock dashboard */}
+          {/* Right content - Real CRM interface */}
           <div className="relative">
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 shadow-2xl border border-gray-700">
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-              </div>
-
-              <div className="space-y-4">
-                <div className="flex items-center justify-between p-3 bg-gray-700 rounded-lg">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center">
-                      <Icon name="Building" size={20} />
-                    </div>
-                    <div>
-                      <div className="font-medium">ЖК "Северная звезда"</div>
-                      <div className="text-sm text-gray-400">3-комн, 85м²</div>
-                    </div>
-                  </div>
-                  <div className="text-green-400 font-bold">12.5М ₽</div>
-                </div>
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-blue-500/20 p-3 rounded-lg">
-                    <div className="text-blue-400 text-sm">Новые лиды</div>
-                    <div className="text-2xl font-bold">+47</div>
-                  </div>
-                  <div className="bg-green-500/20 p-3 rounded-lg">
-                    <div className="text-green-400 text-sm">Сделки</div>
-                    <div className="text-2xl font-bold">23</div>
-                  </div>
-                </div>
-
-                <div className="h-24 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-lg flex items-center justify-center">
-                  <Icon
-                    name="TrendingUp"
-                    size={32}
-                    className="text-purple-400"
-                  />
-                </div>
-              </div>
+            <div className="bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden">
+              <img
+                src="https://cdn.poehali.dev/files/a146a461-112a-45f5-b151-e097900e4491.png"
+                alt="CRM Интерфейс - Дашборд аналитики"
+                className="w-full h-auto object-cover"
+              />
+              {/* Overlay for better integration */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none"></div>
             </div>
           </div>
         </div>
