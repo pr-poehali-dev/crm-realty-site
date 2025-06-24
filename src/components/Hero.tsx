@@ -23,11 +23,11 @@ const Hero = () => {
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight">
-              CRM для агентств недвижимости{" "}
+              CRM для агентств недвижимости
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              Ваша цифровая платформа
+            <p className="md:text-xl text-gray-300 leading-relaxed text-xl">
+              VT24 - принимайте решения на основе данных.{" "}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
