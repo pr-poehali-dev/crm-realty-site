@@ -37,12 +37,6 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <Button
-              size="sm"
-              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-6"
-            >
-              Демо
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
