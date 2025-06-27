@@ -2,27 +2,43 @@ const AdditionalServices = () => {
   const services = [
     {
       image:
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop",
-      title: "Межрегиональные сделки",
-      description: "Зарабатывайте передавая клиентов в любые регионы",
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+      title: "Бесплатный перенос данных",
+      description:
+        "Бесплатный перенос базы объектов, клиентов, заявок в платформу. Интеграция рекламных кабинетов",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
+      title: "Брендирование платформы",
+      description: "Ваши агенты и сотрудники будут видеть Ваш логотип",
     },
     {
       image:
         "https://images.unsplash.com/photo-1553484771-371a605b060b?w=400&h=300&fit=crop",
-      title: "Контакт-центр",
-      description: "Каждое обращение будет учтено",
+      title: "Колл-центр",
+      description:
+        "Колл-центр принимает все звонки и обращения. Ни одно обращения не останется без внимания",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop",
-      title: "Ипотечный брокеридж",
-      description: "Комиссия до 50 тыс. руб за проданный полис",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+      title: "Обучение работе с платформой",
+      description:
+        "Циклический курс для стажеров, школа РОПа, HR, руководителя агентства",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=300&fit=crop",
-      title: "Страхование недвижимости, здоровья и жизни",
-      description: "Зарабатывайте на комиссии страховщиков",
+        "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=300&fit=crop",
+      title: "Бизнес консалтинг партнеров",
+      description:
+        "Профессиональная консультация по развитию бизнеса и оптимизации процессов",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=300&fit=crop",
+      title: "Дополнительные сервисы",
+      description: "Сервисы назначения встреч, удаленный юрист, маркетолог",
     },
   ];
 
@@ -38,7 +54,7 @@ const AdditionalServices = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
