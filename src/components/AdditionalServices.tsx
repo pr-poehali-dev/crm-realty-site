@@ -2,7 +2,7 @@ const AdditionalServices = () => {
   const services = [
     {
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=300&fit=crop",
       title: "Бесплатный перенос данных",
       description:
         "Бесплатный перенос базы объектов, клиентов, заявок в платформу. Интеграция рекламных кабинетов",
@@ -22,7 +22,7 @@ const AdditionalServices = () => {
     },
     {
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=400&h=300&fit=crop",
       title: "Обучение работе с платформой",
       description:
         "Циклический курс для стажеров, школа РОПа, HR, руководителя агентства",
