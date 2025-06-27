@@ -54,9 +54,11 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <div className="text-xl md:text-2xl font-bold text-green-400">
-                  Аналитика
+                  Сквозная аналитика
                 </div>
-                <div className="text-xs md:text-sm text-gray-400">под ключ</div>
+                <div className="text-xs md:text-sm text-gray-400">
+                  любых процессов АН
+                </div>
               </div>
             </div>
           </div>
