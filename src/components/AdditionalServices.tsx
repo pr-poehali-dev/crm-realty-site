@@ -62,7 +62,7 @@ const AdditionalServices = () => {
             >
               <div className="w-full h-32 mb-4 rounded-lg overflow-hidden group-hover:scale-105 transition-transform duration-300">
                 <img
-                  src={service.image}
+                  src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop&crop=center"
                   alt={service.title}
                   className="w-full h-full object-cover"
                 />
